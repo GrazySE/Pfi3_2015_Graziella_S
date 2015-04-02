@@ -1,6 +1,18 @@
 <resources>
-    <string name="app_name">Pfi3_2015_Graziella_S</string>
+
+
+    <string name="app_name">RandomQuotes</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="buttonText">Next Quote, please</string>
+    <string name="quote">Is that true what they say about computers?</string>
+<color name="red">#c00000</color>
+
+    <string-array name="quotes">
+        <item>\" We can teach a computer how to say I love you, however we cannot teach it to how to love.\"\n - Albert Jacquard</item>
+        <item>\"Today we can make music using computers, but the computer has always existed in the head of compositors. \"\n - Milan Kundera</item>
+        <item>\"Computers make many things easier, but the most part of these things that are made easier are unnecessary.\"\n - Andy Rooney</item>
+        <item>\"Softwares are just like sex - they are better when they are for free...\"\n - Linus Torvalds</item>
+    </string-array>
 </resources>
