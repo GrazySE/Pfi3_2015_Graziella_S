@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="opt1">Reseplanerare</string>
+    <string name="opt2">Tidtabeller</string>
+    <string name="opt3">Hållplatssök</string>
+    <string name="opt4">Biljetter</string>
+    <string name="header">Skånetrafiken</string>
+    <string name="top">Reseplanerare</string>
+    <string name="search">Sök</string>
+    <string name="from">Från</string>
+    <string name="to">Till</string>
+    <string name="time">Tid/datum</string>
+    <string name="now">Nu</string>
+    <string name="fav">Favoriter</string>
+    <string name="change">Ändra</string>
+
+    <string name="dep">Avgång</string>
+    <string name="arr">Ankomst</string>
+    <string name="bev">Bevakningar</string>
+    <string name="traf">Trafikslag</string>
+
+
+
+</resources>
