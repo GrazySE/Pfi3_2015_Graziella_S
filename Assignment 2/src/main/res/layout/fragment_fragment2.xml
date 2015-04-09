@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".MainActivity$PlaceholderFragment"
+
+
+    android:layoutMode="opticalBounds"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:id="@+id/textView8"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignStart="@+id/textView10"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/to"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/textView10"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fav"
+        android:id="@+id/textView10"
+        android:textColor="#ff000000"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/radioButton"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text=">"
+        android:id="@+id/textView11"
+        android:textColor="#ff000000"
+        android:clickable="true"
+        android:layout_alignTop="@+id/textView10"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/time"
+        android:id="@+id/textView12"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/textView11"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/now"
+        android:id="@+id/textView13"
+        android:textColor="#fff00000"
+        android:layout_below="@+id/textView12"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="@string/change"
+        android:id="@+id/button"
+        android:textSize="12dp"
+        android:layout_above="@+id/radioButton"
+        android:layout_toEndOf="@+id/editText" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dep"
+        android:id="@+id/radioButton"
+        android:checked="true"
+        android:buttonTint="@android:color/holo_red_dark"
+        android:button="@android:drawable/star_on"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arr"
+        android:id="@+id/radioButton2"
+        android:checked="false"
+        android:buttonTint="@android:color/holo_red_dark"
+        android:layout_alignTop="@+id/radioButton"
+        android:layout_toStartOf="@+id/button3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/traf"
+        android:id="@+id/textView14"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignStart="@+id/radioButton" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="@string/change"
+        android:id="@+id/button2"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignStart="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bev"
+        android:id="@+id/textView15"
+        android:layout_marginTop="25dp"
+        android:textColor="#ff000000"
+        android:layout_below="@+id/textView14"
+        android:layout_alignStart="@+id/textView14" />
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:id="@+id/editText"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignBottom="@+id/textView9" />
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:id="@+id/editText2"
+        android:inputType="text"
+        android:layout_alignStart="@+id/textView13" />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text=">"
+        android:id="@+id/textView5"
+        android:textColor="#ff000000"
+        android:clickable="true"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignEnd="@+id/button2" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:text="@string/search"
+        android:id="@+id/button3"
+        android:layout_below="@+id/textView8"
+        android:layout_alignEnd="@+id/button" />
+
+</RelativeLayout>
