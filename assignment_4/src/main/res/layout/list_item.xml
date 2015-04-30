@@ -16,8 +16,8 @@
         android:textColor="#ffff85ea" />
 
     <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:id="@+id/iv_bookcover"
         android:layout_marginStart="10dp"
         android:src="@drawable/uranus"
