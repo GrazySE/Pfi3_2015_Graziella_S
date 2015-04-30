@@ -2,24 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="150dp"
-    android:background="#9cff85ea"
+    android:background="#ff000000"
     android:weightSum="1">
 
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:id="@+id/iv_bookcover"
-        android:layout_marginStart="10dp"
-        android:src="@drawable/uranus"
-        android:paddingTop="20dp" />
-
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="122dp"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Medium Text"
         android:id="@+id/tv_title"
         android:layout_marginBottom="8dp"
         android:layout_marginStart="10dp"
-        android:textColor="#ff050505" />
+        android:textColor="#ffff85ea" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/iv_bookcover"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/uranus"
+        android:paddingTop="20dp" />
+
 </LinearLayout>

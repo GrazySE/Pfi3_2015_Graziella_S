@@ -3,7 +3,7 @@
     android:layout_height="match_parent"
     tools:context="se.mah.k3.lecture_4_examples_adapter_extra.FragmentList"
     android:id="@+id/grid_layout"
-    android:background="#ffffff">
+    android:background="#ff000000">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -12,11 +12,11 @@
         android:layout_height="wrap_content"
         android:id="@+id/gridView"
         android:gravity="center"
-        android:numColumns="auto_fit"
-        android:columnWidth="100dp"
+        android:numColumns="2"
+        android:columnWidth="150dp"
         android:verticalSpacing="10dp"
         android:horizontalSpacing="10dp"
         android:stretchMode="spacingWidth"
         android:choiceMode="singleChoice"
-        android:background="#ffffffff" />
+        android:background="#ff000000" />
 </FrameLayout>
