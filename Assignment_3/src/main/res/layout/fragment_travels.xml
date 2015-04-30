@@ -72,7 +72,7 @@
         android:paddingLeft="4dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Avvikelse finns"
+        android:text="Avvikelser"
         android:id="@+id/leavesIn"
         android:layout_weight="1"
         android:textStyle="bold"

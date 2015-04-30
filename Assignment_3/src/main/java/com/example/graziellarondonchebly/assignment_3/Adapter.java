@@ -47,7 +47,7 @@ public class Adapter extends BaseExpandableListAdapter {
             anyDeviation = "";
 
         } else {
-            arrival = "Avvikelse finns";
+            arrival = "Avvikelser";
             anyDeviation = "\n \n Avvikelse:\n"+j.get(groupPosition).getDepTimeDeviation()+" min\n \n";
             arrTime.setImageResource(R.drawable.error);
         }
